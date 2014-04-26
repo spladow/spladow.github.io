@@ -340,10 +340,18 @@ img {
   vertical-align: middle;
 }
 
+.img-home{
+  display: block;
+  height: auto;
+  max-width: 100%
+}
+
 .img-responsive {
   display: block;
   height: auto;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .img-rounded {
