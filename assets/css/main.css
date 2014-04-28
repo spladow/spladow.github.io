@@ -165,9 +165,13 @@ a:after {
 	padding-bottom: 0px;
 }
 
-#social i {
+#footer i {
 	font-size: 16px;
 	color: #74cfae;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 10px;
+}
 
 /* +++++ Color Wraps / Blog Page +++++ */
 
