@@ -42,8 +42,16 @@ p {
     font-size: 16px;
 }
 
+.right {
+  text-align: right;
+}
+
 .centered {
     text-align: center;
+}
+
+.project {
+  padding-top: 10px;
 }
 
 /* Links */
@@ -172,6 +180,14 @@ a:after {
   padding-right: 1%;
   margin-top: 10px;
 }
+
+#footer i:first-of-type {
+  font-size: 16px;
+  color: #74cfae;
+  padding-right: 1%;
+  margin-top: 10px;
+}
+
 
 /* +++++ Color Wraps / Blog Page +++++ */
 
