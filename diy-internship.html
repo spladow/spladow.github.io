@@ -59,11 +59,11 @@
   <div class="container">
     <div class="row mt">
       <div class="col-md-8">
-        <div><img class="img-responsive" src="assets/img/diy/diy-hero.png" alt=""></div>
+        <div><img class="img-responsive illo" src="assets/img/diy/diy-hero.png" alt=""></div>
         <ul class="nav nav-tabs">
           <li role="presentation" class="active"><a data-toggle="tab" href="#todo">To-Do</a></li>
           <li role="presentation"><a data-toggle="tab" href="#search">Search</a></li>
-          <li role="presentation"><a data-toggle="tab" href="#profile">Profile</a></li>
+          <li role="presentation"><a data-toggle="tab" href="#profile">Profiles</a></li>
         </ul>
         <div class="tab-content">
           <div id="todo" class="tab-pane fade in active">
@@ -77,21 +77,24 @@
             <p>One of the early problems I had with forking was that kids can submit projects to multiple challenges in different skills. It's not uncommon to see someone submit a project that completes three or more challenges and we wouldn't know which project a member intended to complete with thier forked version. I was using a lot of real estate trying to support these mega projects. There were debates about whether we really wanted to support completing multiple challenges with one project at all and the impact that decision had on our moderation process.<p>
             <div><img class="img-responsive illo" src="assets/img/diy/todo/shared-todo-copy.png" alt=""></div>
             <p>Once we decided to shelf forking and focus on the single use case of planning activities, it became clear that to-do lists could easily take advantage of the metadata we were using to power the activity guides we show parents and educators who had signed up for our Extra Awesome features. We had interviews with parents that showed us one of the things they liked most about the site was that they could point their kids to it when they were bored and they would find something to do. We decided to minimize the friction between logging in and finding a project by showing time and cost estimates. Kids could go to their to-do lists with no real plan and find a project they could hop into easily, as well as see the more ambitious projects they'd marked as interesting so they could start getting the materials together for next time.</p>
+            <p>The final visual polish was done by DIY's resident Mycologist <a href="https://twitter.com/brocklesocks">Ryan Brock</a> :D</p>
           </div>
           <div id="search" class="tab-pane fade">
             <h3>Search</h3>
-            <p>This is my search section</p>
-              <ul>
-                <li>looked at customer support emails</li>
-                <li>looked at search logs</li>
-                <li>considered user behavior</li>
-                <li>kids on DIY don't have many other social networks/social graphs. No importing, no real names. They are usually telling eachother exactly what their username is. So we don't have a lot of names that come back. It's not like you know your friend's name is Alex and you can sort through all the people named Alex. Not a lot of overlap. (Unless your name has minecrafter in it.) So I revised the results for people to only show a few at once.</li>
-              </ul>
+            <div><img class="img-responsive illo" src="assets/img/diy/search/search-top.png" alt=""></div>
+            <div><img class="img-responsive illo" src="assets/img/diy/search/search-right-column.png" alt=""></div>
+            <p>For the search results redesign, I depended on customer support emails, search logs, and some insights I had during a usability study I conducted before I started my internship.<p>
+            <p>At the time, DIY's search results were optimized for browsing projects based on keywords like Minecraft or Harry Potter, but didn't serve members who were looking to find their friends on the site. Due to our memberships' ages, the "find friends" experience is a bit different than it would be for most sites you and I use.</p>
+            <p>For one thing, many of DIY's members don't have accounts with other social networks. They don't have an established online presence with a social graph to pull from, so importing isn't an option. They also aren't using their real names, so they can't just search for a friend on their own and add them.</p>
+            <p>I based my decision to show fewer member results in some designs based on this aspect of our members' behavior. Because members make unique names with DIY's own set of avatars, wide net searches don't make sense. On Facebook I could try to find my friend Alex, by searching his first name and another criteria like city to narrow things a bit and then combing the results. On DIY that's just not practical. It's, rightfully, I think, up to DIY's members to choose who to share their profile with. The searcher either gets the username right or they don't. I wanted to leave some room for multiple results because some pieces of names are popular and kids might forget numbers or spaces between sharing names IRL and actually doing the search.</p>
+            <p>The most representative thing of a member on DIY is his or her projects, so I wanted to emphasize those in the results. There's also a quirk in the way search works where we look for strings in the comments on projects. This is to help with results for themes or types of projects, but it also means that if you search for a username, you'll see projects that member has commented on as well. I could have introduced a flag prior to the search to eliminate that, but I thought the extra step was unnecessary friction for the user and it's also a kind of fun method for discovery. I decided DIY is a community that embraces quirkiness and I didn't want to be the one to trample it.</p>
+            <p>I also decided not to go with a toggle for projects and results after the search was completed because when a user searches for someone correctly, there would just be one result.<p>
           </div>
           <div id="profile" class="tab-pane fade">
-            <h3>Profile</h3>
-            <p>This is my profile section</p>
-          </div>
+            <h3>Profiles</h3>
+            <div><img class="img-responsive illo" src="assets/img/diy/profile/avatar-upgrade-01.png" alt=""></div>
+            <p>This is one of the few screens I could track down of an exercise I did with <a href="https://twitter.com/hrtlym">Hartley Miller</a> while she was designing a new profile experience to roll out with DIY's Extra Awesome release. I switched to working on the To-Do feature before I made much progress. All the awesome work you see on the new DIY profiles is all Hartley :D.</p>
+            </div>
         </div>
       </div>
       <div class= "col-md-4">
