@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Thomas Goes To Work</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Thomas Dunlap</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="http://dunlapdabbles.com">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+  <!-- +++++ Projects Section +++++ -->
+
+  <div class="container">
+    <div class="row mt">
+      <div class="col-md-offset-2 col-md-8">
+     <p><img class="img-responsive" src="assets/img/portfolio/sadf.gif" alt=""></p>
+     <h3>Gif Avatars</h3>
+      
+      <p>For my Experimental Research Methods class, we were tasked with running a qualitative study on a topic of our choosing. Our study investigated the relationship between moving images and the ability to recall associated text in a converstional setting. Specifically, animated gifs used as avatars in an online forum.</p>
+
+      <p>I got the idea for the study from <a href="https://github.com/ednapiranha">Jen Fong-Adwent</a>'s <a href="http://chat.meatspac.es">chat.meatspac.es</a>, which is a chat room that records and posts a looping gif from a user's webcam every time they post text.</p>
+
+      <p>There are a lot of interesting design choices in chat.meatspaces, and it's been really interesting to watch it evolve based on how the community uses it, especially since it's an open source project where users can make pull requests to officially support actions they see a need for.</p>
+
+      <blockquote>If the timing of an animation combined with text is executed in a single message, then the results are a lot more memorable than a realtime video clip that is either shorter or longer term.
+      <br></br>
+      ...
+      <br></br>
+      The Audience now sees a looping image along with your text. They see it again. And again. They associate the text with the looping imagery. Now think about how effective this is in communicatin a moment across to others.</blockquote>
+
+      <p>Jen made a claim on her blog that people remembered the messages more because they were associated with a looping animation.</p>
+
+      <h3>Defining the Scope</h3>
+
+      <p> There were two parts as I saw it: remembering interactions better, and having a richer sense of someone over time. I think, based on some blog posts, that Jen sees the Meatspace community's tightness as being accelerated because of the gif + text format. It's a really interesting premise, but it was a bit too nebulous for our study, which had to be purely quantitative, and would be conducted over a relatively short period of time.<p>
+
+      <p>So I narrowed.<p>
+
+      <p>I focused on the idea of pairing imagery and text. I had an idea that researchers found pairing images with text to help memory in some studies. That's why we have flashcards with visual aids for learning a language. So we moved into that area in the lit review as a group. We found that past studies had found that pairing images with audio and text can increase both cued and free recall. (More on those in a minute.) Earlier studies had also compared the recognition of moving images andstatic images, finding that people were able to remember moving images better than they were able to remember static images.</p>
+
+      <h3>Chat is Hard</h3>
+      <p>The first challenge we ran into was having a chat experience and maintaining any sort of internal validity. I experimented with cloning Meatspace and running my own local instance where I could have pre-written messages posted the same way for our participants. I realized pretty quickly that this wouldn't work. The subject would be able to view the conversation, but it would be difficult to make them feel like a participant without letting them, you know, participate, and seeing the conversation react to them.</p>
+
+      <p>I thought it would be important for our external validity to maintain the conversational setting. Gifs have experienced a pretty pronounced resurgence over the last few years, and some new services like Ello and Meatspaces are experimenting with animated avatars. In order to have avatars I needed some sort of conversation, but I needed it to be unchanging. And in order to be able to ask questions that didn't have subjective answers, I needed the conversation to be <em>about</em> something. So I went to the most well behaved community online.</p>
+
+      <p>I wanted the text to be something that occurred naturally online – Something that wasn't fabricated. We could have edited something to keep it mostly on topic, but at Metafilter it was pretty easy to find a thread that didn't stray. We cut the thread to ten posts for brevity's sake, but left the content otherwise unaltered. We left the usernames as well, which I had some ethical concerns about, but I didn't expect the study to get much exposure, and the source of the material wasn't listed anywhere. Then, I added the avatars, which I sourced from a meatspace blog that shares moments from the site for people who missed them. I made static images from those same gifs to keep them as similar as possible.</p>
+
+      <p> We wound up with this design, which was a combination of Metafilter and Meatspaces. We left some of the original thread's metadata for context, to show it was a forum thread and put a little chrome around it, like a thread title.</p>
+
+      <p>We created three treatments, one with animated avatars, one with static images, and a baseline that had no avatars at all and just displayed usernames to identify the posters. Participants were randomly served one of these treatments and had two minutes to read the thread. After those two minutes had passed they received a distraction task in the form of a short video, and then they received a questionaire about the thread.</p>
+
+      <p> we had two hypotheses:</p>
+
+      <blockquote>
+        H1: The animated image will strengthen the association between the images and the accompanying content, therefore improving cued recall for the participants who receive the animated gif treatment over those who receive the treatment with no image or static images
+
+        H2: Those who receive the static image treatment will show better cued recall than those in the control group (no image)
+      </blockquote>
+
+      <h3>Cued Recall</h3>
+
+      <h3>What We Asked</h3>
+
+      <p>We tried a few different formats, but they wre all multiple choice with four possible choices so we would only be looking at cued recall, and there would be the same chance of a correct guess on each question.</p>
+
+      <p>We had picking something that doesn't belong:</p>
+
+      <p>What was NOT one of the benefits xingcat gave for meeting at Dunkin Donuts?
+      A. It’s safe
+      B. Other people are there
+      c. If the other person doesn’t show up you still get to have a donut
+      D. Dunkin Donuts are everywhere</p>
+
+
+
+      </div><!-- /col-md-8 -->
+    </div><!-- /row -->
+  </div><!-- /container -->
+
+
+  <!-- +++++ Footer Section +++++ -->
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <a href="mailto:whatscene@gmail.com"><i class="fa fa-envelope"></i></a>
+          <a href="http://twitter.com/spladow"><i class="fa fa-twitter"></i></a>
+          <a href="http://github.com/spladow"><i class="fa fa-github"></i></a>
+        </div><!-- /col-md-4 -->
+
+
+        <div class="col-md-4">
+          <p>Made with <i class="fa fa-heart"></i> in Seattle, WA</p>
+        </div><!-- /col-md-4 -->
+
+      </div>
+
+    </div>
+  </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
