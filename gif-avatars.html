@@ -60,35 +60,39 @@
     <div class="row mt">
       <div class="col-md-offset-2 col-md-8">
      <p><img class="img-responsive" src="assets/img/portfolio/sadf.gif" alt=""></p>
-     <h3>Gif Avatars</h3>
+     <h1>Meaty Gif Avatars</h1>
       
-      <p>For my Experimental Research Methods class, we were tasked with running a qualitative study on a topic of our choosing. Our study investigated the relationship between moving images and the ability to recall associated text in a converstional setting. Specifically, animated gifs used as avatars in an online forum.</p>
+      <p>For my Experimental Research Methods class, we were tasked with running a quantitative study on a topic of our choosing. Our study investigated the relationship between moving images and the ability to recall associated text in a conversational setting. Specifically, animated gifs used as avatars in an online forum.</p>
 
       <p>I got the idea for the study from <a href="https://github.com/ednapiranha">Jen Fong-Adwent</a>'s <a href="http://chat.meatspac.es">chat.meatspac.es</a>, which is a chat room that records and posts a looping gif from a user's webcam every time they post text.</p>
 
       <p>There are a lot of interesting design choices in chat.meatspaces, and it's been really interesting to watch it evolve based on how the community uses it, especially since it's an open source project where users can make pull requests to officially support actions they see a need for.</p>
 
-      <p>I had been reading <a href="http://ednapiranha.com/2014/community-and-communication-in-virtual-space/">Jen's posts</a> about designing and developing the chatroom, and along with some interesting reasons for maintaining a single channel chat, I spent a lot of time thinking about her idea that by pairing animation and text the interactions on Meatspace Chat were more memorable.</p>
+      <p>I had been reading <a href="http://ednapiranha.com/2014/community-and-communication-in-virtual-space/">Jen's posts</a> about designing and developing the chatroom, and, along with some interesting reasons for maintaining a single channel chat, I spent a lot of time thinking about her idea that by pairing animation and text the interactions on Meatspace Chat became more memorable.</p>
 
       <blockquote><p>If the timing of an animation combined with text is executed in a single message, then the results are a lot more memorable than a realtime video clip that is either shorter or longer term.</p>
       
       <p>...</p>
 
-      <p>The Audience now sees a looping image along with your text. They see it again. And again. They associate the text with the looping imagery. Now think about how effective this is in communicatin a moment across to others.</p></blockquote>
+      <p>The Audience now sees a looping image along with your text. They see it again. And again. They associate the text with the looping imagery. Now think about how effective this is in communicating a moment across to others.</p></blockquote>
+      
+      <br>
 
-      <h3>Defining the Scope</h3>
+      <h2>Defining the Scope</h2>
 
       <p> There were two parts as I saw it: remembering interactions better, and having a richer sense of someone over time. I think, based on some blog posts, that Jen sees the Meatspace community's tightness as being accelerated because of the gif + text format. It's a really interesting premise, but it was a bit too nebulous for our study, which had to be purely quantitative, and would be conducted over a relatively short period of time.<p>
 
       <p>So I narrowed.<p>
 
-      <p>I focused on the idea of pairing imagery and text. I had an idea that researchers found pairing images with text to help memory in some studies. That's why we have flashcards with visual aids for learning a language. So we moved into that area in the lit review as a group. We found that past studies had found that pairing images with audio and text can increase both cued and free recall. (More on those in a minute.) Earlier studies had also compared the recognition of moving images andstatic images, finding that people were able to remember moving images better than they were able to remember static images.</p>
+      <p>I focused on the idea of pairing imagery and text. I had an idea that researchers found pairing images with text to help memory in some studies. That's why we have flashcards with visual aids for learning a language. So we moved into that area in the lit review as a group. Our lit review revealed that past studies had found pairing images with audio and text significantly increased both cued and free recall. (More on those in a minute.) Earlier studies had also compared the recognition of moving images and static images, finding that people were better able to remember moving images than they were static images.</p>
 
-      <p>we had to narrow our scope in terms of the setting for the experiment as well, but before I talk about that I just want to cover two types of recall we we found in our lit review – "Cued recall" and "free recall". Cued recall refers to the ability to recall something after being given a prompt or cue about the information being remembered. An example could be a multiple choice question. Free recall describes a scenario in which there are no prompts that provide help in remembering what the participant has seen or interacted with. This could take the form of a free response question that asks a participant to summarize the information they were presented with earlier in a study.</p>
+      <p>We had to narrow our scope in terms of the setting for the experiment as well, but before I talk about that I just want to cover two types of recall we we found in our lit review – "Cued recall" and "free recall". Cued recall refers to the ability to recall something after being given a prompt or cue about the information being remembered. An example could be a multiple choice question. Free recall describes a scenario in which there are no prompts that provide help in remembering what the participant has seen or interacted with. This could take the form of a free response question that asks a participant to summarize the information they were presented with earlier in a study.</p>
 
       <p>While we were discovering that past studies had found that pairing images with audio and text can increase both free recall and cued recall I was taking a stab at designing a study around a chat experience and running into trouble.</p>
 
-      <h3>Chat is Hard</h3>
+
+      <h2>Chat is Hard</h2>
+
       <p>The first challenge we ran into was having a chat experience and maintaining any sort of internal validity. I experimented with cloning Meatspace and running my own local instance where I could have pre-written messages posted the same way for our participants. I realized pretty quickly that this wouldn't work. The subject would be able to view the conversation, but it would be difficult to make them feel like a participant without letting them, you know, participate, and seeing the conversation react to them. Given our time constraints I decided to move on quickly.</p>
 
       <p>I thought it would be important for our external validity to maintain the conversational setting. Gifs have experienced a pretty pronounced resurgence over the last few years, and some new services like Ello and Meatspaces are experimenting with animated avatars. In order to have avatars I needed some sort of conversation, but I needed it to be unchanging. And in order to be able to ask questions that didn't have subjective answers, I needed the conversation to be <em>about</em> something. So I went to the most well behaved community online.</p>
@@ -99,8 +103,8 @@
 
       <p> We wound up with this prototype, which was a combination of a Metafilter thread and Meatspace Chat. We left some of the original thread's metadata for context, to show it was a forum thread and put a little chrome around it, like a thread title.</p>
 
-      <h3>The Study</h3>
-      <p>We created three treatments: one with animated avatars, one with static images, and a baseline that had no avatars at all and just displayed usernames to identify the posters. Participants were randomly served one of these treatments and had two minutes to read the thread. After those two minutes had passed they received a distraction task in the form of a short video, and then they received a questionaire about the thread.</p>
+      <h2>The Study</h2>
+      <p>We created three treatments: one with animated avatars, one with static images, and a baseline that had no avatars at all and just displayed usernames to identify the posters. We used convenience sampling and recruited through social media, screening out users whose primary language wasn't English and who hadn't obtained a high school degree. (Since we modeled our questions after high school reading quizzes, we wanted to ensure a minimum level of experience with them.)Participants were randomly served one of these treatments and had two minutes to read the thread. After those two minutes had passed they received a distraction task in the form of a short video, and then they received a questionnaire about the thread.</p>
 
       <p>We had two hypotheses:</p>
 
@@ -110,20 +114,22 @@
         <p>H2: Those who receive the static image treatment will show better cued recall than those in the control group (no image)</p>
       </blockquote>
 
-      <h3>What We Asked</h3>
+      <br>
 
-      <p>We tried a few different formats question, but they wre all multiple choice with four possible choices so we would only be looking at cued recall, and there would be the same chance of a correct guess on each question.</p>
+      <h2>What We Asked</h2>
+
+      <p>We tried a few different formats question, but they were all multiple choice with four possible choices so we would only be looking at cued recall, and there would be the same chance of a correct guess on each question.</p>
 
       <p>We had picking something that doesn't belong, recognizing a direct quote, identifying who said something, and completing a recommendation.</p>
 
       <p>Each of the four group members wrote two questions and then we cut one in order to bring the test completion time under 10 minutes. While I think the questions we had were effective, I would have liked to spend more time fine tuning them if I could go back and do it again.</p>
 
-      <h3>Findings</h3>
+      <h2>Findings</h2>
 
              <p><img class="img-responsive" src="assets/img/portfolio/gif-findings.jpg" alt=""></p>
 
 
-      <p>I'm admittedly not incredibly strong with statistics. I understand the basics, but I didn't calculate these numbers. Another team member got our p-value and used a one way anova (P = .043) to test if there was a significant differnce between groups. We used a post-hoc Tukey test to see which groups were significantly different because of the small sample size and the fact that it's supposed to be well suited for unequal sample sizes. (Which we had thanks to a bit of trouble with our random assignment tool.)
+      <p>I'm admittedly not incredibly strong with statistics. I understand the basics, but I didn't calculate these numbers. Another team member got our p-value and used a One-Way ANOVA (P = .043) to test if there was a significant difference between groups. We used a post-hoc Tukey test to see which groups were significantly different because of the small sample size and the fact that it's supposed to be well suited for unequal sample sizes. (Which we had thanks to a bit of trouble with our random assignment tool.)
 
       <p>The findings partially support H1 in that the animated treatment did perform better than the control group. However, there wasn't a statistically significant difference between the animated and static groups. And the static group didn't outperform the control.</p>
 
